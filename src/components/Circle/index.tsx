@@ -1,11 +1,14 @@
 import React from 'react';
-import Container from "./styles";
+import Border from "./styles";
 
 const Circle = () => {
     return (
-        <Container>
-            +
-        </Container>
+        <Border>
+            <div>
+              <span>+</span>
+            </div>
+        </Border>
+
     );
 };
 
