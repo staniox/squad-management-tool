@@ -29,7 +29,7 @@ export const Container = styled.div`
     margin:0 1em;
   }
   
-  circle{
+  span .circle{
     width: 30px;
     height: 30px;
     border-radius: 50%;

@@ -10,7 +10,7 @@ const index = () => {
             </section>
             <section>
                 <span>John Dee</span>
-                <circle>JD</circle>
+                <span className="circle">JD</span>
             </section>
 
         </Container>

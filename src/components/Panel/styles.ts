@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 100%;
-  transform: scale(0.96);
-  margin-top: 1em;
+  height: 100%;
+  transform: scale(1);
   background-color: #fff;
   border-radius: 10px;
+  overflow-y: auto;
 
   hr{
     display: block;
@@ -24,10 +25,17 @@ const Card = styled.div`
     justify-content: space-between;
     margin: 0 2em;
   }
-  
-  div{
-    margin: 1em;
+  #panel-content{
+    transform: scale(0.9);
   }
+
+  @media(min-width: 321px){
+    transform: scale(0.96);
+    #panel-content{
+      transform: scale(1);
+    }
+  }
+  
 
 `
 
